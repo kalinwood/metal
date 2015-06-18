@@ -1,0 +1,62 @@
+/*-----------------------------------*\
+  $RESET
+\*-----------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*-----------------------------------*\
+  $RESET
+\*-----------------------------------*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-image: url(../images/wolves.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.logo {
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.logo img {
+  max-height: 600px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: .8em;
+  letter-spacing: 5px;
+  color: #f7f7f7;
+  padding: 30px;
+  position: fixed;
+}
