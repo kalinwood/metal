@@ -155,3 +155,11 @@ span {
   padding: 0 10px;
   font-size: 1.5em;
 }
+
+@media screen and (max-width:640px) {
+
+  .logo img {
+  max-width: 500px;
+}
+
+}
