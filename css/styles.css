@@ -109,7 +109,7 @@ a:hover {
 }
 
 .logo img {
-  max-height: 600px;
+  max-height: 500px;
 }
 
 .album {
@@ -158,7 +158,7 @@ span {
 
 @media screen and (max-width:640px) {
 
-  /*.logo { padding: 30px 30px; }*/
+  .arrow { display: none; }
 
   .logo img { max-height: 300px; }
 
