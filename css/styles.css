@@ -158,7 +158,7 @@ span {
 
 @media screen and (max-width:640px) {
 
-  .arrow { display: none; }
+/*  .arrow { display: none; }*/
 
   .logo img { max-height: 300px; }
 
